@@ -1,0 +1,296 @@
+# =========================================================
+# Engineering Knowledge Base / Polyglot Systems Lab
+# Covers:
+# - Java / Spring Boot / Gradle / Maven
+# - Node.js / TypeScript / React
+# - Go
+# - Rust
+# - C / C++
+# - Python
+# - Docker / Kubernetes
+# - Terraform
+# - IDEs / OS junk
+# - Benchmarks / profiling / experiments
+# =========================================================
+
+# =========================================================
+# OS FILES
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================
+# EDITORS / IDEs
+# =========================================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Vim
+*.swp
+*.swo
+*~
+
+# =========================================================
+# ENV / SECRETS
+# =========================================================
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
+
+secrets/
+credentials/
+tokens/
+
+# =========================================================
+# LOGS
+# =========================================================
+logs/
+*.log
+*.out
+*.err
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================================
+# TEMP / CACHE
+# =========================================================
+tmp/
+temp/
+.cache/
+.cache-loader/
+.eslintcache
+
+# =========================================================
+# NODE / JAVASCRIPT / TYPESCRIPT
+# =========================================================
+node_modules/
+
+dist/
+build/
+coverage/
+
+.next/
+.nuxt/
+.svelte-kit/
+
+.parcel-cache/
+
+# Vite
+vite.svg
+
+# TurboRepo
+.turbo/
+
+# Remix
+.public/build/
+.vercel/
+
+# Package managers
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# =========================================================
+# JAVA / KOTLIN / SPRING
+# =========================================================
+target/
+out/
+build/
+
+.gradle/
+.mvn/
+
+# IntelliJ compiled output
+classes/
+
+# Spring Boot
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# =========================================================
+# GO
+# =========================================================
+bin/
+pkg/
+
+*.test
+coverage.out
+
+# Go workspace
+go.work.sum
+
+# =========================================================
+# RUST
+# =========================================================
+target/
+
+# Keep Cargo.lock for applications, ignore for libraries if needed
+# Cargo.lock
+
+# =========================================================
+# C / C++ / LOW LEVEL
+# =========================================================
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.lib
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+
+# Make
+Makefile.in
+
+# =========================================================
+# PYTHON
+# =========================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.python-version
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================================================
+# TERRAFORM
+# =========================================================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# =========================================================
+# DOCKER / CONTAINERS
+# =========================================================
+docker-data/
+*.tar
+
+# =========================================================
+# KUBERNETES
+# =========================================================
+kubeconfig*
+*.kubeconfig
+
+# =========================================================
+# TESTING / BENCHMARKS / PROFILING
+# =========================================================
+benchmark-results/
+profiling/
+flamegraphs/
+heap-dumps/
+gc-logs/
+
+*.prof
+*.pprof
+
+# Load testing
+artillery-report/
+k6-results/
+
+# =========================================================
+# DATABASES
+# =========================================================
+*.db
+*.sqlite
+*.sqlite3
+
+postgres-data/
+mongo-data/
+redis-data/
+
+# =========================================================
+# OBSERVABILITY
+# =========================================================
+grafana-data/
+prometheus-data/
+tempo-data/
+loki-data/
+
+# =========================================================
+# GENERATED FILES
+# =========================================================
+generated/
+generated-src/
+codegen/
+
+# =========================================================
+# ARCHIVES
+# =========================================================
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# =========================================================
+# DOCUMENTATION BUILD OUTPUT
+# =========================================================
+site/
+docs/.vitepress/dist/
+.docusaurus/
+
+# =========================================================
+# PERSONAL NOTES / LOCAL SCRATCH
+# =========================================================
+scratch/
+notes-private/
+local-experiments/
+
+# =========================================================
+# OPTIONAL:
+# Uncomment if you want to ignore media exports
+# =========================================================
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.mp4
+# *.mov
+
+# =========================================================
+# KEEP IMPORTANT PLACEHOLDERS
+# =========================================================
+!.gitkeep
